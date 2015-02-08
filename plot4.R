@@ -1,6 +1,7 @@
 library(dplyr)
 
-setwd("D:/Coursera/DS4 - Exploratory Data Analysis/DS4 - Coursework 1/")
+#Set Directory
+setwd("Insert Directory Here")
 
 Elect.Data<-read.table("household_power_consumption.txt",header=T,sep=";",
                        na.strings = "?")
